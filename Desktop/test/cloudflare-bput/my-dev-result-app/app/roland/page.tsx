@@ -109,7 +109,7 @@ const StudentList = () => {
     const fetchStudents = async () => {
       try {
         const response = await axios.get(
-          'http://3a921707.my-dev-result-app.pages.dev/api/data'
+          'https://dev-bput.vercel.app/api/data'
         );
         setStudents(response.data);
       } catch (error) {
